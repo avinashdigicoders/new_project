@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+.nav{
+    position: fixed;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px ;
+    
+}
+.nav h3{
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 12px 22px;
+    font-size: 22px;
+    margin-left: 5px;
+
+}
+.intro{
+    height: 45%;
+    width: 100%;
+    padding: 30px 50px;
+}
+.intro h1{
+    font-size: 100px;
+
+    letter-spacing: -3px;
+    line-height: 100px;
+}
+.place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.place h4,i{
+font-size: 30px;
+font-weight: 600;
+}
+.photo{
+    height: auto;
+    width: 100%;
+    
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 800px;
+}
+#about{
+    height: 400px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    margin-top: -30px;
+}
+#about h2{
+    width: 60%;
+    font-size: 70px;
+    line-height: 70px;
+
+}
+#about2{
+    width: 40%;
+    height: 100%;
+    padding: 0 100px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about2 h3{
+    font-size: 30px;
+    font-weight: 500px;
+}
+#icon i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.work{
+    height: 45%;
+    width: 100%;
+    border-top: 3px solid black;
+    display: flex;
+    padding: 50px 60px;
+}
+.work1{
+    height: 100%;
+    width: 35%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 3px solid black;
+
+}
+.work2{
+    height: 100%;
+    width: 65%;   
+}
+

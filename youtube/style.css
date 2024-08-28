@@ -1,0 +1,53 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.b{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    font-size: 30px;
+    padding: px;
+    align-items: center;
+}
+.search{
+    height: 40px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+}
+.c{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.sign{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: blue;
+}
+
